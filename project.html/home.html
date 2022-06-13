@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=
+    , initial-scale=1.0"
+    />
+    <title>Document</title>
+    <style>
+     
+      body{
+        font-size: 17px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: 400;
+        color: rgb(39, 39, 39);
+            }     
+      .flex-Item-1{
+        width: 800px;
+        
+        
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+              
+      }
+
+      .flex-Item-4{
+           margin-top: -39px;
+           
+      }
+      .flex-Item-7{
+       
+           margin-top: -19px;
+          }
+
+      .flex-Item-5{
+          max-width: 690px;
+           margin-top: -59px;
+         
+      }
+      .flex-Item-6{
+       margin-left: 300px;
+       height: 700px;
+     
+     
+      }
+      video{
+        margin-left: -32px;
+        margin-top: -14px;
+        width: 500px;
+        height: 210px;
+      }
+      .menu-icon {
+        height: 30px;
+        width: 30px;
+        cursor: pointer;
+        float: right;
+        margin-top: 17px;
+        margin-right: -19px;
+        border-radius: 2px;
+        display: none;
+      }
+      .contianer {
+        background-color: green;
+        width: 100%;
+        height: 70px;
+        padding-left: 8%;
+        padding-right: 8%;
+        box-sizing: border-box;
+        overflow: hidden;
+      }
+      
+      
+      .divs{
+        font-size: 14px;
+        background-color: #ff54a2;
+        width: 200px;
+        margin-left: -13px;
+       
+      }
+      .img{
+        height: 200px;
+        width: 444px;
+      }
+      .navbar {
+        align-items: center;
+        width: 100%;
+        display: flex;
+        width: 500px;
+        margin-left: 700px;
+        font-weight: bold;
+        margin-top: -08px;
+        
+       
+      }
+      .footerp{
+          color: white;
+          
+      }
+      .footer {
+        background-color: green;
+        margin-top: 10px;
+        text-align: center;
+        height: 70px;
+      }
+      .pi{
+      font-size: 29px;
+      margin-top: -55px;
+      color: white;
+      margin-left: 42px;
+     
+    }
+    .p1{
+         font-size: 29px;
+         margin-top: -63px;
+      color: yellow;
+      margin-left: 162px;
+    }
+    li{
+      display: block;
+    }
+      nav {
+        flex: 1;
+        text-align: right;
+      }
+      nav ul li {
+        list-style: none;
+        display: inline-block;
+        margin-right: 30px;
+        
+      }
+      nav ul li a {
+        text-decoration: none;
+        color: white;
+        font-size: 20px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: bolder;
+        display: block;
+        margin-left: -20px;
+      
+      }
+      nav ul li a:hover {
+        color: rebeccapurple;
+      }
+      @media only screen and (max-width: 700px) {
+        nav ul {
+          height: 420px;
+          width: 88%;
+          margin-right: 07px;
+          background: linear-gradient(#00520f, #144d00 ) ;
+          position: absolute;
+          top: 55px;
+          right: 0;
+          z-index: 2;
+          display: no;
+          overflow: hidden;
+          
+        }
+        nav ul li {
+          display: block;
+          margin-top: 07px;
+          margin-bottom: 05px;
+        }
+        nav ul li a {
+          color: #fff;
+        }
+        .menu-icon {
+          display: block;
+        }
+        li{
+          display: none;
+        }
+      }
+      @media (min-width: 600px){
+        body{
+          font-size: 28px;
+        }
+        .img{
+          width: 1340px;
+          height: 400px;
+        }
+        video{
+        margin-left: 710px;
+        margin-top: -530px;
+        width: 600px;
+        height: 440px;
+      }
+      .flex-Item-7{
+       
+         margin-top: -69px;
+      }
+      }
+      
+  
+    </style>
+  </head>
+  <body>
+    <div class="contianer">
+     
+      <div class="navbar">
+        <nav>
+          <ul id="menuList">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="tips.html">Tips</a></li>
+            <li><a href="GetinTouch.html">Get in Touch</a></li>
+            <li><a href="GetinTouch.html">Email</a></li>
+          </ul>
+        </nav>
+      </div>
+      <img
+        src="/project.html/menu.png"
+        class="menu-icon"
+        alt=" menu logo"
+        onclick="togglemenu()"
+      />
+    </div>
+    <p class="pi">Health</p>
+    <p class="p1">Essential</p>
+    <div class= "flexcontainer">
+      <div class= "flex-item-0">
+        <h1>Can Vaccinated People Transmit COVID-19 to Others?</h1>
+      </div>
+      <div class="flex-Item-1">
+        <p>Get the answer from an infectious disease specialist</p>
+      </div>
+      <div class="flex-Item-2">
+        <img class="img" src="/project.html/vacccine.jpg.png" alt=" Vaccine image" />
+      </div>
+      <div class="flex-Item-3">
+        <p>
+          We’ve heard it all since the pandemic started — lemon juice can kill
+          the coronavirus, masks don’t work, if you already had
+          <a href="">COVID-19</a> you can’t get it again or that the vaccines
+          approved for emergency use will change your DNA or put a tracking
+          device in your body. <br /><br /><a href="">Send Us Email</a>
+        </p>
+      </div>
+      <br />
+      <div class="flex-Item-4">
+        <p>
+          It’s almost like we need a strong dose of something to knock out all
+          of the misinformation. But despite all the myths and urban legends,
+          about half of the U.S. population is fully vaccinated.
+        </p>
+      </div>
+      <br />
+      <div class="flex-Item-5">
+        <p>
+          Wonderful news, right? Wonderful news, right? <br /><br />
+          Well, not to some. Vaccinated people are up against a new set of myths
+          — they’re literally magnetic or they’re going to shed vaccine
+          components and alter the DNA of unvaccinated people. And despite the
+          extra layer of protection, they still have to grapple with the same
+          pandemic realities as everyone else.
+        </p>
+      </div>
+        <video src="/project.html/videoplayback (9).mp4" autoplay></video>
+        </div>
+      </div>
+      <div class="flex-Item-7"><P>
+        So, what do vaccinated people need to do to stay safe? And is it still
+        possible for them to spread COVID-19 to others? Infectious disease
+        <a href="">specialist Lyssette</a> Cardona, MD, answers those questions
+        and covers why vaccination is still one of our best weapons in the fight
+        against convid-19
+      </P>
+      </div>
+
+    <div class="footer">
+      <p class="footerp">CopyRight@ 2022 AlrightReserved</p>
+    </div>
+    <script>
+      var menuList = document.getElementById("menuList");
+      menuList.style.maxHeight = "0px";
+      function togglemenu() {
+        if (menuList.style.maxHeight == "0px") {
+          menuList.style.maxHeight = "130px";
+        } else {
+          menuList.style.maxHeight = "0px";
+        }
+      }
+    </script>
+  </body>
+</html>
